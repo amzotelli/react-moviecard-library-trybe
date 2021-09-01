@@ -1,15 +1,15 @@
 import React from 'react';
-import './App.css';
 import Header from './components/Header';
-import movie from './data';
-import MovieCard from './components/MovieCard';
+import MovieList from './components/MovieList';
+import movies from './data';
+import './App.css';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
         <Header />
-        {movie.map((mov) => <MovieCard movieInfo={ mov } />)}
+        <MovieList movies={ movies } />
       </div>
     );
   }

@@ -6,29 +6,24 @@ class MovieCard extends React.Component {
 
     return (
       <section>
-        <h1>
+        <h4>
           {' '}
           title:
           {' '}
           {movieInfo.title}
-        </h1>
-        <h3>
+        </h4>
+        <h5>
           subtitle:
           {' '}
           {movieInfo.subtitle}
           {' '}
-        </h3>
+        </h5>
         <p>
           {' '}
           storyline:
           {' '}
           {movieInfo.storyline}
           {' '}
-        </p>
-        <p>
-          rating:
-          {' '}
-          {movieInfo.rating}
         </p>
         <img src={ movieInfo.imagePath } alt={ movieInfo.title } />
       </section>
