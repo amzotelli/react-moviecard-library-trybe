@@ -36,8 +36,8 @@ body {
   flex-direction: column;
   height: 450px;
   margin: 5px;
-  padding: 15px;
   overflow: hidden;
+  padding: 15px;
   width: 300px;
 }
 
