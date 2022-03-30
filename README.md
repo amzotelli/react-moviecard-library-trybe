@@ -26,8 +26,9 @@ Nesse projeto, eu precisei:
 
 ## O que foi ser desenvolvido
 
-Eu desenvolvi uma biblioteca de cartões de filmes utilizando React. A biblioteca deveria possuir um cabeçalho e uma lista de cartões. Cada cartão representa um filme e possui uma imagem, título, subtítulo, sinopse e avaliação.
-Os dados foram fornecidos pela Trybe (data.js)
+Este foi meu primeiro projeto em React, onde eu precisei desenvolver uma biblioteca de cartões de filmes. 
+A biblioteca deveria possuir um cabeçalho e uma lista de cartões. Cada cartão representa um filme e possui uma imagem, título, subtítulo, sinopse e avaliação.
+Os dados dos filmes foram fornecidos pela Trybe (data.js)
 
 <br>
 
